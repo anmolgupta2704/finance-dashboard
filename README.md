@@ -1,16 +1,87 @@
-# React + Vite
+# 💰 Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Finance Dashboard built using React and Tailwind CSS.
+This application helps users track their income, expenses, and overall financial insights with interactive UI components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 📊 Dashboard overview (Balance, Income, Expense)
+* 📈 Interactive charts (Line & Pie)
+* 📋 Transaction table with dynamic updates
+* 👤 Role-based UI (Admin & Viewer)
+* 🌙 Dark mode support
+* 💾 Data persistence using LocalStorage
+* ➕ Add transactions dynamically
+* 📱 Responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React (Vite)
+* Tailwind CSS
+* Zustand (State Management)
+* Recharts (Charts)
+* LocalStorage
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│ ├── Dashboard.jsx
+│ ├── SummaryCards.jsx
+│ ├── Charts.jsx
+│ ├── TransactionTable.jsx
+│ ├── RoleSwitcher.jsx
+│ ├── Insights.jsx
+│
+├── store/
+│ └── useStore.js
+│
+├── data/
+│ └── mockData.js
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+git clone https://github.com/your-username/finance-dashboard.git
+cd finance-dashboard
+npm install
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+👉 Add your deployed link here
+(e.g. https://finance-dashboard.vercel.app)
+
+---
+
+## 💡 Key Highlights
+
+* Clean and modular component structure
+* State managed efficiently using Zustand
+* Implemented dark mode for better UX
+* Handled edge cases like empty transactions
+* Scalable architecture for future backend integration
+
+---
+
+## 👨‍💻 Author
+
+Anmol Gupta
+B.Tech CSE (Cybersecurity)
+
+---
+
+## ⭐ Feedback
+
+If you like this project, consider giving it a ⭐ on GitHub!
