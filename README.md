@@ -29,7 +29,7 @@ This application helps users track their income, expenses, and overall financial
 ---
 
 ## 📂 Project Structure
-
+```bash
 src/
 ├── components/
 │ ├── Dashboard.jsx
@@ -46,6 +46,7 @@ src/
 │ └── mockData.js
 
 ---
+```
 
 ## ⚙️ Installation & Setup
 
